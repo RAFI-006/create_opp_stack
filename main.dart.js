@@ -73642,7 +73642,7 @@ s.w.push("")
 s.x.push(new A.fO("","",""))
 s.y.push(new A.fN("",""))},
 L(a){var s=this,r=null,q=A.bj(a,r,t.w).w
-return new A.wh(new A.rQ(B.PS,new A.MD(r,r,1/0,56),r),new A.dY(B.a1,r,r,new A.Hk(A.iA(r,A.fg(A.a([B.KX,new A.aQ(new A.a82(s),"name",r),new A.aQ(new A.a83(s),"risk level",r),new A.aQ(new A.a84(s),"minimum initial",r),new A.aQ(new A.a85(s),"minimum SIP",r),new A.aQ(new A.a86(s),"description",r),new A.aQ(new A.a87(s),"recommended\nduration",r),new A.aQ(new A.a88(s),"icon url",r),s.W7(),s.a4E(),s.WA(),s.a5V(),s.a5W(),s.a1x(),s.a42(),s.Wa(),s.Wb(),s.W_(),s.a5U(),s.Wp(),s.W8(),s.Wj(),s.Wi(),s.Wh(),B.KW,s.XU(),B.KY],t.p),B.S,B.aE,B.dE),B.x,r,r,r,B.BN,r,q.a.a*0.6),r),r),r)},
+return new A.wh(new A.rQ(B.PS,new A.MD(r,r,1/0,56),r),new A.dY(B.a1,r,r,new A.Hk(A.iA(r,A.fg(A.a([B.KX,new A.aQ(new A.a82(s),"name",r),new A.aQ(new A.a83(s),"risk level",r),new A.aQ(new A.a84(s),"minimum lumpsum",r),new A.aQ(new A.a85(s),"minimum SIP",r),new A.aQ(new A.a86(s),"description",r),new A.aQ(new A.a87(s),"recommended\nduration",r),new A.aQ(new A.a88(s),"icon url",r),s.W7(),s.a4E(),s.WA(),s.a5V(),s.a5W(),s.a1x(),s.a42(),s.Wa(),s.Wb(),s.W_(),s.a5U(),s.Wp(),s.W8(),s.Wj(),s.Wi(),s.Wh(),B.KW,s.XU(),B.KY],t.p),B.S,B.aE,B.dE),B.x,r,r,r,B.BN,r,q.a.a*0.6),r),r),r)},
 Wb(){var s=this,r=null,q=t.p
 return A.e5(!0,"add Investment Strategy",A.fg(A.a([A.h1(A.a([A.e8(r,B.c5,r,new A.a7g(s),r,r),A.e8(r,B.c6,r,new A.a7h(s),r,r)],q),B.S,B.by,B.a2),A.p1(new A.a7i(s),s.x.length,B.aw,!0)],q),B.S,B.aE,B.a2))},
 Wa(){var s=this,r=null,q=t.p
@@ -73655,8 +73655,8 @@ a5W(){return A.e5(null,"stack performance data",A.kx(A.a([new A.aQ(new A.a81(thi
 a1x(){return A.e5(null,"historical return data",A.kx(A.a([new A.aQ(new A.a7K(this),"historical return url ",null)],t.p),B.ab,B.aw,!0))},
 a42(){var s=null
 return A.e5(s,"preferred investor details",A.kx(A.a([new A.aQ(new A.a7L(),"description",s),new A.aQ(new A.a7M(),"risk quadrant graph",s),new A.aQ(new A.a7N(),"risk profile",s),new A.aQ(new A.a7O(),"age",s),new A.aQ(new A.a7P(),"investment horizon",s),new A.aQ(new A.a7Q(),"return expectation",s)],t.p),B.ab,B.aw,!0))},
-W_(){var s=this,r=null,q="investment horizon"
-return A.e5(r,"about opportunity stack",A.kx(A.a([new A.aQ(new A.a6N(s),"description",r),new A.aQ(new A.a6O(s),"risk quad graph",r),new A.aQ(new A.a6P(s),"risk profile",r),new A.aQ(new A.a6Q(s),"age",r),new A.aQ(new A.a6R(s),q,r),new A.aQ(new A.a6S(s),q,r)],t.p),B.ab,B.aw,!0))},
+W_(){var s=this,r=null
+return A.e5(r,"about opportunity stack",A.kx(A.a([new A.aQ(new A.a6N(s),"description",r),new A.aQ(new A.a6O(s),"risk quad graph",r),new A.aQ(new A.a6P(s),"risk profile",r),new A.aQ(new A.a6Q(s),"age",r),new A.aQ(new A.a6R(s),"investment horizon",r),new A.aQ(new A.a6S(s),"return expectation",r)],t.p),B.ab,B.aw,!0))},
 W7(){var s=this,r=null,q=t.p
 return A.e5(!0,"add ISINS",A.fg(A.a([A.h1(A.a([A.e8(r,B.c5,r,new A.a6W(s),r,r),A.e8(r,B.c6,r,new A.a6X(s),r,r)],q),B.S,B.by,B.a2),A.p1(new A.a6Y(s),s.d.length,B.aw,!0)],q),B.S,B.aE,B.a2))},
 W8(){var s=this,r=null,q=t.p
@@ -73723,7 +73723,7 @@ A.a7e.prototype={
 $0(){this.a.x.push(new A.fO("","",""))},
 $S:0}
 A.a7i.prototype={
-$2(a,b){var s=null,r=""+b,q=this.a
+$2(a,b){var s=null,r=""+(b+1),q=this.a
 return A.fg(A.a([A.i6("SET "+r,s,s,s,A.cP(s,s,B.rn,s,s,s,s,s,s,s,s,32,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new A.aQ(new A.a7b(q,b),"icon Url "+r,s),new A.aQ(new A.a7c(q,b),"header "+r,s),new A.aQ(new A.a7d(q,b),"descriptin "+r,s)],t.p),B.S,B.aE,B.a2)},
 $S:120}
 A.a7b.prototype={
@@ -73765,7 +73765,7 @@ A.a76.prototype={
 $0(){this.a.y.push(new A.fN("",""))},
 $S:0}
 A.a7a.prototype={
-$2(a,b){var s=null,r=""+b,q=this.a
+$2(a,b){var s=null,r=""+(b+1),q=this.a
 return A.fg(A.a([A.i6("SET "+r,s,s,s,A.cP(s,s,B.rn,s,s,s,s,s,s,s,s,32,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new A.aQ(new A.a74(q,b),"icon Url "+r,s),new A.aQ(new A.a75(q,b),"description "+r,s)],t.p),B.S,B.aE,B.a2)},
 $S:120}
 A.a74.prototype={
@@ -73917,7 +73917,7 @@ A.a6U.prototype={
 $0(){this.a.d.push("")},
 $S:0}
 A.a6Y.prototype={
-$2(a,b){return new A.aQ(new A.a6T(this.a,b),"ISINS "+b,null)},
+$2(a,b){return new A.aQ(new A.a6T(this.a,b),"ISINS "+(b+1),null)},
 $S:46}
 A.a6T.prototype={
 $1(a){var s=this.a,r=s.d
@@ -73941,7 +73941,7 @@ A.a7_.prototype={
 $0(){this.a.r.push("")},
 $S:0}
 A.a73.prototype={
-$2(a,b){return new A.aQ(new A.a6Z(this.a,b),"Goal "+b,null)},
+$2(a,b){return new A.aQ(new A.a6Z(this.a,b),"Goal "+(b+1),null)},
 $S:46}
 A.a6Z.prototype={
 $1(a){var s=this.a,r=s.r
@@ -73968,7 +73968,7 @@ A.a7w.prototype={
 $0(){this.a.e.push("")},
 $S:0}
 A.a7A.prototype={
-$2(a,b){return new A.aQ(new A.a7v(this.a,b),"Pros "+b,null)},
+$2(a,b){return new A.aQ(new A.a7v(this.a,b),"Pros "+(b+1),null)},
 $S:46}
 A.a7v.prototype={
 $1(a){var s=this.a,r=s.e
@@ -73995,7 +73995,7 @@ A.a7q.prototype={
 $0(){this.a.f.push("")},
 $S:0}
 A.a7u.prototype={
-$2(a,b){return new A.aQ(new A.a7p(this.a,b),"Cons "+b,null)},
+$2(a,b){return new A.aQ(new A.a7p(this.a,b),"Cons "+(b+1),null)},
 $S:46}
 A.a7p.prototype={
 $1(a){var s=this.a,r=s.f
@@ -74022,7 +74022,7 @@ A.a7k.prototype={
 $0(){this.a.w.push("")},
 $S:0}
 A.a7o.prototype={
-$2(a,b){return new A.aQ(new A.a7j(this.a,b),"recomendation "+b,null)},
+$2(a,b){return new A.aQ(new A.a7j(this.a,b),"recomendation "+(b+1),null)},
 $S:46}
 A.a7j.prototype={
 $1(a){var s=this.a,r=s.w
